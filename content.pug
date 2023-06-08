@@ -1,0 +1,20 @@
+a(name="main")
+main.content
+ article.about
+    h1 ОСББ
+    p Об’єднання співвласників багатоквартирного будинку ОСББ – це неприбуткова юридична особа, створена власниками квартир/нежитлових приміщень багатоквартирного будинку (далі ББ) для спільного користування та управління.
+ article.service
+  form
+    fieldset 
+      legend Розрахунок послуг
+      label Вид
+        select(name="service" id="service")
+          option Електропостачання
+          option Водопостачання
+          option Ліфт
+      label Вид
+        select(name="days" id="days")
+          option Будні
+          option Вихідні
+      button(type="button" id="calc") Розрахувати
+      h3(id="price") Вартість

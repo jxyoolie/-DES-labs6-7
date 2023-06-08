@@ -1,0 +1,6 @@
+import './scss/reset.scss'
+import './scss/main.scss'
+import './scss/header.scss'
+import './scss/content.scss'
+import './scss/footer.scss'
+import './main.js'

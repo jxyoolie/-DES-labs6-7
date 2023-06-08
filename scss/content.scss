@@ -1,0 +1,36 @@
+.content {
+  height: 980px;
+  @media all and (max-width: 1260px) {
+    height: 1200px;
+  }
+  @media all and (max-width: 810px) {
+    height: 1400px;
+  }
+}
+.about {
+  @include flex();
+  background-color: #7b8fa1;
+  height: 250px;
+  padding-top: 5%;
+  h1,
+  p {
+    color: white;
+    text-align: center;
+    font-size: large;
+  }
+}
+.service {
+  @include flex();
+  flex-direction: column;
+  background-color: #cfb997;
+  height: 100px;
+  padding-top: 2%;
+  form {
+    @include flex();
+    fieldset {
+      @include flex();
+      width: 600px;
+      margin: auto;
+    }
+  }
+}

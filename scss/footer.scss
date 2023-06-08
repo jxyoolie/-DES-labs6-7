@@ -1,0 +1,20 @@
+footer {
+  height: 60px;
+  background-color: #fad6a5;
+  @include flex();
+  flex-direction: column;
+  .altnav {
+    text-align: center;
+  }
+  a {
+    height: 30px;
+    width: 100%;
+    display: inline;
+    font-size: 1.25em;
+    color: #333;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 0 10px;
+    line-height: 40px;
+  }
+}
